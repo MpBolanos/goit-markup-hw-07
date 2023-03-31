@@ -85,22 +85,6 @@ body {
   color: #2196f3;
 }
 
-.current {
-  color: #2196f3;
-}
-.current::after {
-  display: inline-block;
-  content: "";
-  position: absolute;
-  left: 0;
-  background-color: #2196f3;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  margin-top: 28px;
-}
-
 .title-generic {
   font-weight: 700;
   font-size: 36px;
@@ -798,4 +782,20 @@ body {
 }
 .portfolio__item:hover .portfolio__description-text {
   transform: translateY(-294px);
+}
+
+.current {
+  color: #2196f3;
+}
+.current::after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #2196f3;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 28px;
 }/*# sourceMappingURL=main.css.map */
